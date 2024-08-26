@@ -2,4 +2,4 @@
 
 Deployed website: https://chancecmu.github.io/pui-homework/
 
-Repository link: `add the URL to this repository`
+Repository link: https://github.com/chancecmu/pui-homework
