@@ -58,7 +58,6 @@ body {
 
 .logo {
     width: 400px;
-    height: auto;
 }
 
 .left {align-items: flex-start;}
@@ -106,7 +105,6 @@ h5 {
 
     img {
         width: 450px;
-        height: auto;
         border: 1px black solid;
     }
 
