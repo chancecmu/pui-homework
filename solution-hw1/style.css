@@ -1,0 +1,124 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+
+    a {
+        text-decoration: none;
+        color: inherit;
+        width: fit-content;
+    }
+
+    a:hover {
+        background-color: yellow;
+        font-weight: 600;
+    }
+    
+    a:hover p, a:hover button {
+        font-weight: 600;
+    }
+
+    button {
+        background: inherit;
+    }
+}
+
+h1, h2, h3, h4, h5, p {
+    margin: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-weight: 400;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding-block: 20px 120px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Inter', "system-ui", sans-serif;
+    font-size: 17px;
+    line-height: 22px;
+    gap: 20px;
+
+    section {
+        display: flex;
+        flex-direction: column;
+        width: 980px;
+        gap: 16px;
+        align-items: center;
+
+        hr {width: 100%;}
+    }
+}
+
+.label {
+    font-size: 14px;
+    font-weight: 600;
+    opacity: 0.5;
+}
+
+.logo {
+    width: 400px;
+    height: auto;
+}
+
+.left {align-items: flex-start;}
+
+h5 {
+    margin-top: 32px;
+    font-size: 21px;
+    line-height: 25px;
+}
+
+.item, .shop {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-bottom: 11px;
+
+    img {
+        width: 400px;
+        height: auto;
+        border: 1px black solid;
+    }
+}
+
+.shop {
+    align-items: center;
+    text-align: center;
+
+    img {
+        width: 200px;
+    }
+
+    h5 {
+        margin-top: 0;
+        font-size: 12px;
+        font-weight: 600;
+        text-decoration: underline;
+    }
+}
+
+.detail {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+
+    img {
+        width: 450px;
+        height: auto;
+        border: 1px black solid;
+    }
+
+    section {
+        width: 200px;
+        align-items: flex-start;
+    }
+}
+
+.cart {
+    width: 200px;
+    display: flex;
+    gap: 16px;
+}
+
