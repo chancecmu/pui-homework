@@ -1,3 +1,4 @@
+/*change defaults, set hover behavior for a tag*/
 *, *::before, *::after {
     box-sizing: border-box;
 
@@ -28,6 +29,7 @@ h1, h2, h3, h4, h5, p {
     font-weight: 400;
 }
 
+/*initialize structure*/
 body {
     display: flex;
     flex-direction: column;
@@ -50,18 +52,21 @@ body {
     }
 }
 
+/*page labels*/
 .label {
     font-size: 14px;
     font-weight: 600;
     opacity: 0.5;
 }
 
+/*logo region*/
 .logo {
     width: 400px;
 }
 
 .left {align-items: flex-start;}
 
+/*page specifications*/
 h5 {
     margin-top: 32px;
     font-size: 21px;
