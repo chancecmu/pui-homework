@@ -84,6 +84,8 @@ h5 {
     }
 }
 
+/*hover specifications*/
+
 .item:hover {
     background-color: yellow;
     font-weight: 600;
@@ -92,6 +94,17 @@ h5 {
 a:hover p, a:hover button {
     font-weight: 600;
 }
+
+.link:hover {
+    background-color: yellow;
+    font-weight: 600;
+}
+
+.link:hover p, .link:hover button {
+    font-weight: 600;
+}
+
+/*hover specifications*/
 
 .shop {
     align-items: center;
