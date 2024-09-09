@@ -79,6 +79,7 @@ h5 {
     flex-direction: column;
     gap: 4px;
     margin-bottom: 11px;
+    padding: 8px;
 
     img {
         width: 400px;
