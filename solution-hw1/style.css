@@ -36,12 +36,8 @@ body {
         width: fit-content;
     }
 
-    a:hover {
+    .current {
         background-color: yellow;
-        font-weight: 600;
-    }
-    
-    a:hover p, a:hover button {
         font-weight: 600;
     }
 
@@ -86,6 +82,15 @@ h5 {
         height: auto;
         border: 1px black solid;
     }
+}
+
+.item:hover {
+    background-color: yellow;
+    font-weight: 600;
+}
+
+a:hover p, a:hover button {
+    font-weight: 600;
 }
 
 .shop {
