@@ -3,10 +3,10 @@ let basePrice = 2.49;
 
 //store glazes specs
 let allGlazes = [
-    { type: 'original', add: 0 },
-    { type: 'sugar-milk', add: 0 },
-    { type: 'vanilla-milk', add: 0.50 },
-    { type: 'double-chocolate', add: 1.50 },
+    { type: 'Original', add: 0 },
+    { type: 'Sugar Milk', add: 0 },
+    { type: 'Vanilla Milk', add: 0.50 },
+    { type: 'Double Chocolate', add: 1.50 },
 ];
 
 //store pack specs
@@ -16,6 +16,25 @@ let allPacks = [
     { size: '6', multiply: 5 },
     { size: '12', multiply: 10 },
 ];
+
+window.onload = function () {
+    let glazes = document.querySelector('#glazingOptions');
+    let packs = document.querySelector('#packOptions');
+
+    for (let i = 0; i < allGlazes.length; i++) {
+        var option = document.createElement('option');
+        option.text = allGlazes[i].type;
+        option.value = allGlazes[i].type;
+        glazes.add(option);
+    }
+
+    for (let i = 0; i < allPacks.length; i++) {
+        var option = document.createElement('option');
+        option.text = allPacks[i].size;
+        option.value = allPacks[i].size;
+        packs.add(option);
+    }
+}
 
 function updatePrice() {
     //grab elements
