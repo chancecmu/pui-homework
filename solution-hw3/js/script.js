@@ -42,7 +42,8 @@ function updatePrice() {
     let chosenPack = document.querySelector('#packOptions').value;
 
     //see if selection exists in class of glazes or pack, get associated price adaptation
-    //for .find documentation: https://www.w3schools.com/jsref/jsref_find.asp
+    //for .find: https://stackoverflow.com/questions/9907419/how-to-get-a-key-in-a-javascript-object-by-its-value
+
     let glazePrice = allGlazes.find(glaze => glaze.type === chosenGlaze).add;
     let packPrice = allPacks.find(pack => pack.size === chosenPack).multiply;
 
