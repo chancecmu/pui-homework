@@ -3,7 +3,12 @@
     box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
     margin: 0;
     margin-block-start: 0;
     margin-block-end: 0;
@@ -40,12 +45,19 @@ body {
     }
 }
 
-.row, .col { 
+.row,
+.col {
     display: flex;
-    width: 100%; 
+    width: 100%;
 }
-.row { flex-direction: row; }
-.col { flex-direction: column; }
+
+.row {
+    flex-direction: row;
+}
+
+.col {
+    flex-direction: column;
+}
 
 /*header + navigation*/
 .logo {
@@ -165,6 +177,8 @@ button {
 
     p {
         font-size: 14px;
+        text-decoration: underline;
+        font-weight: 600;
     }
 }
 
@@ -187,13 +201,13 @@ button {
 
 /*hover specifications*/
 
-.item:hover {
-    background-color: yellow;
+a:hover :nth-child(2),
+a:hover button {
     font-weight: 600;
 }
 
-a:hover p, a:hover button {
-    font-weight: 600;
+.item:hover {
+    background-color: yellow;
 }
 
 .link:hover {
@@ -201,7 +215,8 @@ a:hover p, a:hover button {
     font-weight: 600;
 }
 
-.link:hover p, .link:hover button {
+.link:hover p,
+.link:hover button {
     font-weight: 600;
 }
 
@@ -236,4 +251,3 @@ a:hover p, a:hover button {
 .checkout {
     justify-content: flex-end;
 }
-
