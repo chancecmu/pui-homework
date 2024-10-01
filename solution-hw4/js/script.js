@@ -47,7 +47,7 @@ function updatePrice() {
     let showPrice = document.querySelector('#totalPrice');
     showPrice.innerText = "$ " + totalPrice;
 
-    newRoll = new Roll(rollType, chosenGlaze, chosenPack, totalPrice);
+    newRoll = new Roll(rollType, chosenGlaze, chosenPack, basePrice);
 }
 
 window.onload = function () {
