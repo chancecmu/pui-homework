@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Product Detail</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./js/script.js"></script>
+  <script src="./js/rollsData.js"></script>
+</head>
+
+<body>
+  <!-- Header -->
+  <div class="row header">
+    <a href="./index.html"><img class="logo" src="../assets/logo/logo-01.svg" alt="Logo"></a>
+    <div class="col nav-region">
+      <div class="row links">
+        <a class="current" href="./index.html">PRODUCTS</a>
+        <a href="./cart.html">CART</a>
+      </div>
+      <div class="seperator"></div>
+      <h1 id="roll-header-text"></h1>
+    </div>
+  </div>
+
+  <div class="row detail">
+    <img class="detail-img" id="roll-img" src="" alt="Image of the chosen Cinnamon Roll">
+
+    <div class="col selection">
+      <p>
+        Customize our delicious, hand-made cinnamon roll to your liking!
+      </p>
+
+      <div class="col category">
+        <label>Glazing:</label>
+        <select id="glazingOptions" onchange="updatePrice()"></select>
+      </div>
+      <div class="col category">
+        <label>Pack-size:</label>
+        <select id="packOptions" onchange="updatePrice()"></select>
+      </div>
+      <div class="row cart">
+        <p id="totalPrice"></p>
+        <button id="cartBtn">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+  </div>
+
+</body>
+
+</html>
