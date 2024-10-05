@@ -51,7 +51,6 @@ function updateTotal() {
     const totalElement = document.querySelector('#masterTotal');
     let total = 0;
 
-    // Sum the total price of all rolls in the cart
     for (let i = 0; i < rollCart.length; i++) {
         total += parseFloat(rollCart[i].totalPrice);
     }
@@ -60,13 +59,8 @@ function updateTotal() {
 }
 
 function removeRoll(index) {
-    // Remove item from the rollCart array using the unique index
-    rollCart = rollCart.filter(roll => roll.index !== index); // Filter out roll with that unique index
-
-    // reflect the updated rollCart array
+    rollCart = rollCart.filter(roll => roll.index !== index);
     loadCart();
-
-    // Update total price
     updateTotal();
 }
 
