@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./js/script.js"></script>
+  <script src="./js/storage.js"></script>
+  <script src="./js/cart.js"></script>
+</head>
+
+<body>
+  <!-- Header -->
+  <div class="row header">
+    <a href="./index.html"><img class="logo" src="../assets/logo/logo-01.svg" alt="Logo"></a>
+    <div class="col nav-region">
+      <div class="row links">
+        <a href="./index.html">PRODUCTS</a>
+        <a class="current" href="./cart.html">CART</a>
+      </div>
+      <div class="seperator"></div>
+      <h1>Shopping Cart</h1>
+
+      <!-- Page content aligned with header -->
+
+      <div class="col cart-section">
+        <template id="cart-item-template">
+          <div class="row cart-item">
+            <div class="row item-region">
+              <div class="col preview">
+                <img src="" alt="Roll Image">
+                <button class="remove">Remove</button>
+              </div>
+              <p class="item-description"></p>
+            </div>
+            <p class="item-price"></p>
+          </div>
+        </template>
+        <div id="loadCart" class="col cart-list"></div>
+
+        <div class="seperator"></div>
+
+        <div class="row total">
+          <h3>Total</h3>
+          <h3 id="masterTotal"></h3>
+        </div>
+
+        <div class="row checkout">
+          <button>Checkout</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
