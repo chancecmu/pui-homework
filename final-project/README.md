@@ -1,3 +1,106 @@
+# **FP2 \- Evaluation of the Final Project**
+
+## Project Description
+
+The primary motivation for this project is to showcase my design skills through a beautiful, intuitive color selector. Color plays a central role in this case study design, requiring flexibility and precise control to demonstrate a broad spectrum of choices for base and accent colors. The web portion of the project will feature an advanced color selector interface that allows users to adjust base and accent colors along two dimensions: hue and saturation. Users can switch between these dimensions using segmented controls, designed with semantic HTML and high-contrast indicators to ensure accessibility and clarity regardless of color choice.
+
+## High-Fi Prototypes
+
+### *Prototype 1*
+
+![Prototype 1](../assets/final-project/Proto1.webp)
+
+Feedback highlighted that users found it difficult to understand icon meanings without contextual explanations. Many felt the layout could be clearer if both base and accent controls were displayed together.
+
+### *Prototype 2*
+
+![Prototype 2](../assets/final-project/Proto2.webp)
+
+Users appreciated the side-by-side view, as it allowed them to see color adjustments more intuitively. They also suggested labels like “Primary” and “Background” to denote color roles more clearly.
+
+## Usability Test
+
+During usability testing over video call with screen sharing, participants tested the color selector’s functions and were asked to identify regions' purposes, interpret icons, suggest improvements, and propose alternative labels for color dimensions.
+
+**Key Feedback:**
+1. **Icons for Clarity**: Participants suggested adding a tooltip or labels to improve comprehension of the icon functions.
+2. **Improved Labels**: Terms like “Primary” and “Background” were preferred over “Base.”
+3. **Design Interference**: The initial design was visually complex, creating a clash with the web controls.
+
+### Design Adjustments Based on Feedback
+- **Icon Clarity**: Updated icon to better represent functions like “Saturation.”
+- **Side-by-Side Layout**: Implemented a side-by-side layout to allow for direct comparison of primary and accent adjustments.
+- **Updated Labels**: Adopted labels such as “Primary” and “Background” to denote colors more intuitively.
+
+This feedback inspired iterative designs, resulting in a more user-friendly and visually balanced color selector.
+
+## Updated Designs
+
+![Updated Design](../assets/final-project/Refined.webp)
+
+The updated design includes a simplified interface with intuitive icons, clear labeling, and a side-by-side layout. These adjustments enable users to better understand and manipulate colors within the selector, aligning the interface with usability needs highlighted during testing.
+
+## Feedback Summary
+
+Feedback during lab sessions reinforced usability testing findings, particularly regarding icon clarity and label improvements. Participants emphasized the importance of real-time color changes and supported the side-by-side slider design. Suggestions from the lab also included integrating hover tooltips to clarify icon meanings for first-time users.
+
+### Influence on Design
+- **Tooltips**: Added hover tooltips for each icon to provide immediate clarity.
+- **Real-Time Interaction**: Enhanced real-time color adjustments to make changes more apparent and responsive.
+- **Future Development**: Lab participants expressed interest in a feature to export custom color palettes, which inspired ideas for future iterations.
+
+## Milestones
+
+Outline weekly milestones to plan your expected implementation progress until the end of the semester.
+
+### *Implementation Plan*
+
+- [X] **Week 9 (Oct 28 \- Nov 1)**:
+  - [X] FP1 due
+  - [X] Finalize UI elements and refined design for dual slider functionality.
+  
+- [ ] **Week 10 (Nov 4 \- Nov 8)**:  
+  - [ ] Draft code for dual slider functionality, and get all assets necessary finalized.
+
+- [ ] **Week 11 (Nov 11 \- Nov 15)**:  
+  - [ ] Assets imported and code for slider officially working and mapped to JS and relevent libraries.
+  - [ ] Integrate hover tooltips and test responsiveness.
+
+- [ ] **Week 12 (Nov 18 \- Nov 22)**:  
+  - [ ] Implement accessibility features, including screen reader support and keyboard navigation.
+
+- [ ] **Week 13 (Nov 25 \- Nov 29)**:  
+  - [ ] Conduct further usability testing and address feedback. 
+
+- [ ] **Week 14 (Dec 2 \- Dec 6)**:  
+  - [ ] FP4 due. Consider implementing additional functionality like palette import / export. 
+
+### *Libraries and Other Components*
+
+- **JavaScript Libraries**: D3.js or svg.filter.js for color adjustments, Tippy.js for hover effects.
+- **Accessibility Tools**: ARIA roles and semantic HTML for compatibility with assistive technologies.
+
+## Generative AI Use Plan
+
+### *Tool Use*
+
+Outline how you plan to use Generative AI tools to aid in the implementation.
+
+* **ChatGPT**  
+  * I will use it for generating optimized code snippets, debugging, and alternative UI solutions. ChatGPT can help explore layouts for color components and suggest responsive design approaches.
+  * I will avoid using it for design-specific things, as it may not fully understand project-specific decisions.
+
+* **GitHub Copilot**  
+  * Copilot will assist with coding efficiency and reduce redundant tasks, especially for structuring HTML components and managing states.
+  * Copilot may struggle with project-specific adjustments, so manual tweaks will still be needed.
+
+### *Responsible Use*
+
+All AI-generated code will be reviewed for ethical and privacy concerns, ensuring it aligns with best practices and accessibility standards.
+
+---
+
+
 # **FP1 \- Proposal for Critique**
 
 ## Idea Sketches
