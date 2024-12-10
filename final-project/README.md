@@ -23,7 +23,7 @@ Describe your website (300 words).
   It uses interactive features, such as an onboarding tour with animations and an artifact showcase with interactive item filters. Additionally, a color picker tool allows users to explore color palettes, emphasizing the expressive potential of the *Shelf* project through both a project design and case study visual communication lens.
 
 * **Note:**
-  This website only includes the functional portions of this case study so a lot of background and static portions are excluded. Please evaluate each section as standalone sections not the overall cohesiveness. CSS implementations explored a new nesting technique which was not taught. I found it online, and it managed to simplify my CSS to be more readable for me. 
+  This website only includes the functional portions of this case study so a lot of background and static portions are excluded. Please evaluate each section as standalone sections and not the overall cohesiveness. CSS implementations explored a new nesting technique which was not taught. I found it online, and it managed to simplify my CSS to be more readable for me. 
 ## Part 2: User Interaction
 
 How a user would interact with your website? For each step, briefly but clearly state the interaction type & how we should reproduce it.
