@@ -1,6 +1,3 @@
-<mark>**Note that this document order from FP4 -> FP1**</mark>
-
-<mark>Please sign up for the study</mark> at [https://tinyurl.com/pui-study](https://tinyurl.com/pui-study) to allow us to use your submission to create a better GenAI assistant for designers!
 
 ---
 
