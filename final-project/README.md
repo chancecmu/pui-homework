@@ -41,7 +41,10 @@ How a user would interact with your website? For each step, briefly but clearly 
 * **Screen Sizes:**
   Test this at a 14" or 16" MacBook Pro screen size (1512 x 982; 1728 x 1117; respectively) and a portrait iPad Pro (1024 x 1366).
   I could have chosen a mobile device, but I did not have much experience designing for iPad proportions, so I wanted to learn how to do this.
-* **Accessibility Note:**
+* **WAVE Screenshots:**
+Paste screenshots of the “Summary” and “Details” sections into the writeup, showing no errors.
+![WAVE Summary](assets/wave-summary.png)
+![WAVE Details](assets/wave-details.png)
 
 ## Part 3: External Tool
 

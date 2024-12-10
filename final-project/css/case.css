@@ -170,19 +170,19 @@
             }
 
             .a {
-                background-image: url("assets/a-2.webp");
+                background-image: url("../assets/a-2.webp");
             }
 
             .b {
-                background-image: url("assets/b-1.webp");
+                background-image: url("../assets/b-1.webp");
             }
 
             .c {
-                background-image: url("assets/c-1.webp");
+                background-image: url("../assets/c-1.webp");
             }
 
             .d {
-                background-image: url("assets/d-1.webp");
+                background-image: url("../assets/d-1.webp");
             }
         }
     }
@@ -236,7 +236,7 @@
     .cab {
         aspect-ratio: 978/1057;
         min-width: 980px;
-        background-image: url("assets/cab-1.webp");
+        background-image: url("../assets/cab-1.webp");
         transition: all 0.4s cubic-bezier(0.28, 0.11, 0.32, 1);
     }
 
@@ -314,19 +314,19 @@
             }
 
             .note {
-                background-image: url("assets/note.webp");
+                background-image: url("../assets/note.webp");
             }
 
             .photo {
-                background-image: url("assets/photo.webp");
+                background-image: url("../assets/photo.webp");
             }
 
             .link {
-                background-image: url("assets/link.webp");
+                background-image: url("../assets/link.webp");
             }
 
             .voice {
-                background-image: url("assets/voice.webp");
+                background-image: url("../assets/voice.webp");
             }
 
             p {
