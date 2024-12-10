@@ -212,54 +212,54 @@ class Slideshow {
 document.addEventListener('DOMContentLoaded', () => {
     const tour = [
         {
-            updateBackgrounds: [{ className: 'a', image: 'Im/shelf/a-1.webp' }],
+            updateBackgrounds: [{ className: 'a', image: 'assets/a-1.webp' }],
             updateText: 'Every item you see can do something magical.',
         },
         {
-            updateBackgrounds: [{ className: 'a', image: 'Im/shelf/a-2.webp' }],
+            updateBackgrounds: [{ className: 'a', image: 'assets/a-2.webp' }],
             updateText: 'This one holds a photo.',
         },
         {
-            updateBackgrounds: [{ className: 'a', image: 'Im/shelf/a-3.webp' }],
+            updateBackgrounds: [{ className: 'a', image: 'assets/a-3.webp' }],
             updateText: 'And this one — your voice.',
         },
         {
-            updateBackgrounds: [{ className: 'a', image: 'Im/shelf/a-4.webp' }],
+            updateBackgrounds: [{ className: 'a', image: 'assets/a-4.webp' }],
             updateText: 'Here\'s a link!<br><br> Anyway, you get the idea.',
         },
         {
-            updateBackgrounds: [{ className: 'a', image: 'Im/shelf/a-5.webp' }],
+            updateBackgrounds: [{ className: 'a', image: 'assets/a-5.webp' }],
             updateText: 'Now what\'s this?<br><br> It\'s the only item you go through. Let\'s go!',
             transform: 0,
         },
         {
-            updateBackgrounds: [{ className: 'a', image: 'Im/shelf/a-5.webp' }, { className: 'b', image: 'Im/shelf/b-1.webp' }],
+            updateBackgrounds: [{ className: 'a', image: 'assets/a-5.webp' }, { className: 'b', image: 'assets/b-1.webp' }],
             updateText: 'This is a room! <br><br> Each one has a heading and one row less than before.',
             showDivs: ['b'],
             transform: 1,
         },
         {
-            updateBackgrounds: [{ className: 'a', image: 'Im/shelf/a-6.webp' }, { className: 'b', image: 'Im/shelf/b-2.webp' }],
+            updateBackgrounds: [{ className: 'a', image: 'assets/a-6.webp' }, { className: 'b', image: 'assets/b-2.webp' }],
             updateText: 'They also get their own icon, which appear on each room item.',
         },
         {
-            updateBackgrounds: [{ className: 'a', image: 'Im/shelf/a-5.webp' }, { className: 'b', image: 'Im/shelf/b-3.webp' }],
+            updateBackgrounds: [{ className: 'a', image: 'assets/a-5.webp' }, { className: 'b', image: 'assets/b-3.webp' }],
             updateText: 'Keep as many rooms as you like, using them to expand and explore your Shelf.',
         },
         {
-            updateBackgrounds: [{ className: 'a', image: 'Im/shelf/a-5.webp' }, { className: 'b', image: 'Im/shelf/b-1.webp' }],
+            updateBackgrounds: [{ className: 'a', image: 'assets/a-5.webp' }, { className: 'b', image: 'assets/b-1.webp' }],
             updateText: 'Let’s go into another one, the one with a paper plane.',
             transform: 1,
         },
         {
-            updateBackgrounds: [{ className: 'b', image: 'Im/shelf/b-4.webp' }, { className: 'c', image: 'Im/shelf/c-1.webp' }],
+            updateBackgrounds: [{ className: 'b', image: 'assets/b-4.webp' }, { className: 'c', image: 'assets/c-1.webp' }],
             updateText: 'This room is nested right inside the previous one, with headings relating subtopics. <br><br> Let\'s see what\'s inside the room with a heart. ',
             showDivs: ['c'],
             transform: 2,
         },
         {
-            updateBackgrounds: [{ className: 'c', image: 'Im/shelf/c-2.webp' }],
-            updateText: 'Here\'s our last room. Once you\'re down to one row, no other rooms can be added. <br><br>That’s all for now!<br><button id="restart"><img src="Im/shelf/restart-dark.svg"/>Restart</button>',
+            updateBackgrounds: [{ className: 'c', image: 'assets/c-2.webp' }],
+            updateText: 'Here\'s our last room. Once you\'re down to one row, no other rooms can be added. <br><br>That’s all for now!<br><button id="restart"><img src="assets/restart-dark.svg"/>Restart</button>',
             showDivs: ['d'],
             transform: 3,
         },
@@ -282,19 +282,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const cabinet = [
         {
-            updateBackgrounds: [{ className: 'cab', image: 'Im/shelf/cab-1.webp' }],
+            updateBackgrounds: [{ className: 'cab', image: 'assets/cab-1.webp' }],
             updateText: 'With its rounded corners, and simple handles, cabinet sits at the bottom of every room.</span>',
         },
         {
-            updateBackgrounds: [{ className: 'cab', image: 'Im/shelf/cab-2.webp' }],
+            updateBackgrounds: [{ className: 'cab', image: 'assets/cab-2.webp' }],
             updateText: 'Add links, your voice, notes, and more through Cabinet. Works as fast as you think.',
         },
         {
-            updateBackgrounds: [{ className: 'cab', image: 'Im/shelf/cab-3.webp' }],
+            updateBackgrounds: [{ className: 'cab', image: 'assets/cab-3.webp' }],
             updateText: 'Choose a base and any accent color that comes to mind and let them color your space.',
         },
         {
-            updateBackgrounds: [{ className: 'cab', image: 'Im/shelf/cab-4.webp' }],
+            updateBackgrounds: [{ className: 'cab', image: 'assets/cab-4.webp' }],
             updateText: 'Drag anything into the cabinet to archive. And tap to add it back into your collection.',
         },
     ]

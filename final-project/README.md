@@ -1,3 +1,149 @@
+<mark>**Note that this document order from FP4 -> FP1**</mark>
+
+<mark>Please sign up for the study</mark> at [https://tinyurl.com/pui-study](https://tinyurl.com/pui-study) to allow us to use your submission to create a better GenAI assistant for designers!
+
+---
+
+# **FP4 \- Final Project Writeup**
+
+Feel free to refer to this [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/) to make your writeup more organized, and you can preview your markdown file in VSCode [Markdown editing with Visual Studio Code](https://code.visualstudio.com/docs/languages/markdown#_markdown-preview). 
+
+
+## Part 1: Website Description
+
+Describe your website (300 words).
+
+* **What is the purpose of your website?**
+  The purpose of my website is to showcase the functional components of a case study called *Shelf*. It highlights my design thinking and visual design skills, aimed at engaging both prospective users of *Shelf* and hiring managers evaluating my expertise.
+
+* **Who is the target audience?**
+  The target audience includes potential *Shelf* users and hiring managers interested in assessing my capabilities in visual design and case study presentation.
+
+* **What information do you convey with your website?**
+  The website demonstrates the key functional screens of the *Shelf* project in an interactive and engaging format. Instead of static visuals, it incorporates animations and interactions to provide a dynamic exploration of the design. It also conveys my skills in visual design in the specific way that I've designed the case study. I wish to convey an approaching mastery of the Apple aesthetic, given that I seek to work in Apple's Human Interface Team (proficiency in their design aesthetic is a must in their applications for this role).
+
+* **How is it interesting and engaging?**
+  It uses interactive features, such as an onboarding tour with animations and an artifact showcase with interactive item filters. Additionally, a color picker tool allows users to explore color palettes, emphasizing the expressive potential of the *Shelf* project through both a project design and case study visual communication lens.
+
+* **Note:**
+  This website only includes the functional portions of this case study so a lot of background and static portions are excluded. Please evaluate each section as standalone sections not the overall cohesiveness. CSS implementations explored a new nesting technique which was not taught. I found it online, and it managed to simplify my CSS to be more readable for me. 
+## Part 2: User Interaction
+
+How a user would interact with your website? For each step, briefly but clearly state the interaction type & how we should reproduce it.
+
+1. **Reading Section**: Users scroll through the initial section, which provides a brief introduction about the case study.
+2. **Interactive Tour**: Users click left and right chevrons to navigate the onboarding process. A restart button is available to return to the beginning of the tour.
+3. **Artifact Showcase**: Users can:
+   - Navigate through images using chevrons.
+   - Click on group filters (Notes, Photos, Links, Voice Memos) to focus on specific group of designed artifacts.
+4. **Time Capsule**: Users navigate one screen at a time, showcasing workflow screens sequentially.
+5. **Color Picker**: Users adjust sliders to explore and create custom color palettes. This interactivity emphasizes the role of color as a tool for self-expression in the project - and showcases my interaction design proficiency.
+* **Screen Sizes:**
+  Test this at a 14" or 16" MacBook Pro screen size (1512 x 982; 1728 x 1117; respectively) and a portrait iPad Pro (1024 x 1366).
+  I could have chosen a mobile device, but I did not have much experience designing for iPad proportions, so I wanted to learn how to do this.
+* **Accessibility Note:**
+
+## Part 3: External Tool
+
+Describe what important external tool you used (JavaScript library, Web API, animations, or other). Following the bulleted list format below, reply to each of the prompts.
+
+1. **Name of tool**: NoUI Slider
+   - **Why did you choose to use it over other alternatives?**
+     I chose NoUI Slider because it is simple, easy to implement, and fits the design requirements without adding unnecessary complexity.
+   - **How did you use it?**
+     I used it to create a color picker tool that allows users to explore and adjust colors intuitively, avoiding technical terminology and encouraging exploration.
+   - **What does it add to your website?**
+     It adds interactivity, enabling users to engage with the design process by customizing color palettes, making the experience more immersive and expressive.
+
+## Part 4: Design Iteration
+
+Describe how you iterated on your prototypes, if at all, including any changes you made to your original design while you were implementing your website and the rationale for the changes. (4-8 sentences max)
+
+During implementation, I simplified the slider design to prioritize usability and accessibility. Originally, I planned to use a complex interaction model, but testing revealed that a straightforward four-slider interface was more effective. This design choice ensures clarity and reduces cognitive load, while still allowing users to explore and adjust colors in meaningful ways. I also iterated on SVG design and masking in Figma to ensure seamless integration with web-based visuals. These changes reflect a greater focus on simplicity and design feasibility.
+
+## Part 5: Implementation Challenge
+
+What challenges did you experience in implementing your website? (2-4 sentences max)
+
+A major challenge was managing reusable components for the interactive sections using vanilla JavaScript. I wanted to create a unified class for animations and interactions across multiple feature sections, which required significant trial and error. I'm now left with a seemingly fragile class that I'm afraid to make updates to. Another difficulty was ensuring the exported SVGs (which was a huge design challenge and required multiple, complex masks) from Figma scaled properly and worked with HTML and CSS filters.
+
+## Part 6: Generative AI Use and Reflection
+
+Describe how you used Generative AI tools to create this final project (fill in the following information, write \~500 words in total).
+
+Document your use of all GenAI tools — ChatGPT, Copilot, Claude, Cursor, etc. using the template below. Add/Delete rows or bullet points if needed, and replace Tool1/Tool2 with the name of the tool.
+
+### Usage Experiences by Project Aspects
+
+Feel free to edit the column \_ (other?) or add more columns if there's any other aspect in your project you've used the GenAI tools for.
+
+For the following aspects of your project, edit the corresponding table cell to answer:
+- *Usage*: Whether you used / did not use this tool for the aspect. Enter [Yes/No]
+- *Productivity*: Give a rating on whether this tool makes your productivity for X aspect [1-Much Reduced, 2-Reduced, 3-Slightly Reduced, 4-Not Reduced nor Improved, 5-Slightly Improved, 6-Improved, 7-Much Improved].
+
+| Tool Name | Ratings           | design | plan | write code | debug | _ (other?) |
+|-----------|-------------------|--------|------|------------|-------|------------|
+| ChatGPT   | Usage             | Yes    | No   | Yes        | Yes   | No         |
+| ChatGPT   | Productivity      | 6      | N/A  | 7          | 6     | N/A        |
+
+
+### Usage Reflection
+
+> Impact on your design and plan 
+* It matched my expectations and plan in [FP2](#generative-ai-use-plan) in that … For example, 
+  1. **ChatGPT**: This matched my expectations and plan to use it to generate solutions for code and general debugging as well as simplifying attributions and values in CSS.
+* It did not match my expectations and plan in [FP2](#generative-ai-use-plan) in that … For example, 
+  1. **ChatGPT**: This did not match my expectations in just how much it understood me from my prompting. I did not expect my prompting to produce results as relevant and robust as those that were generated.
+* GenAI tool did/did not influence my final design and implementation plan because … For example, 
+  1. **ChatGPT**: ChatGPT influenced my implementation by simplifying complex features and organizing code for better usability. Its suggestions helped clarify and refine my color picker design, ensuring a balance between complexity and accessibility.
+
+> Use patterns
+* I accepted the generations when …  For example, 
+  1. **ChatGPT**: I accepted generated code for the slider and interactive elements, modifying it for better alignment with the project goals. For example, I adapted its proposed implementation for a more intuitive color picker interface.
+* I critiqued/evaluated the generated suggestions by … For example, 
+  1. **ChatGPT**: I rejected generated code for the interactive elements, choosing to keep my code simple and readable. For example, I opted to keep the sliders simple and without labels (which in one user test, confused people more than help them).
+
+
+> Pros and cons of using GenAI tools
+  - **Pros**: Quick generation of usable code and helpful debugging support.
+  - **Cons**: Limited understanding of project-specific goals, leading to overly complex initial suggestions.
+
+
+### Usage Log
+
+Document the usage logs (prompts and chat history links) for the GenAI tools you used. Some tools may not have an easy way to share usage logs, just try your best! Some instructions for different tools:
+
+1. [ChatGPT Usage Log for Color Picker Implementation](https://chatgpt.com/share/6758be17-36ec-8004-b36d-2b8eb28abef4) 
+1. I lost my chat history to all of the work I did with classes (months ago), but I believed I asked a lot of debugging questions. I knew more about this than I did the no UI slider implementation so most of this was just debugging.
+
+
+---
+
+# **FP3 \- Final Project Check-in**
+
+Document the changes and progress of your project. How have you followed or changed your implementation & GenAI use plan and why? Remember to commit your code to save your progress.
+
+## Implementation Plan Updates
+
+- **Onboarding Tour**: Developed a dynamic, step-by-step interface with left/right chevron navigation and restart functionality.
+- **Artifact Showcase**: Categorized artifacts for easy navigation with group selectors.
+- **Color Picker**: Implemented using NoUI Slider, allowing intuitive palette customization.
+- **Vanilla JavaScript Enhancements**: Incorporated animations and transitions for seamless user experiences.
+
+## Generative AI Use Plan Updates
+
+- Leveraged ChatGPT for:
+  - Writing and debugging slider code.
+  - Refining color gradient designs for the color picker.
+  - Exploring efficient JavaScript class implementations for galleries and tours.
+- Adjustments made for enhanced simplicity based on generated feedback and design priorities.
+
+
+Remember to keep track of your prompts and usage for [FP4 writeup](#part-6-generative-ai-use-and-reflection).
+
+---
+
+
 # **FP2 \- Evaluation of the Final Project**
 
 ## Project Description
