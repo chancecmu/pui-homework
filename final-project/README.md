@@ -11,7 +11,7 @@ Feel free to refer to this [Markdown Cheat Sheet](https://www.markdownguide.org/
 Describe your website (300 words).
 
 * **What is the purpose of your website?**
-  The purpose of my website is to showcase the functional components of a case study called *Shelf*. It highlights my design thinking and visual design skills, aimed at engaging both prospective users of *Shelf* and hiring managers evaluating my expertise.
+  The purpose of my website is to showcase the functional components of a case study called *Shelf*. It highlights my design thinking and visual design skills, aimed at engaging both prospective users of *Shelf* and hiring managers evaluating my visual design skills.
 
 * **Who is the target audience?**
   The target audience includes potential *Shelf* users and hiring managers interested in assessing my capabilities in visual design and case study presentation.
@@ -53,7 +53,7 @@ Describe what important external tool you used (JavaScript library, Web API, ani
    - **How did you use it?**
      I used it to create a color picker tool that allows users to explore and adjust colors intuitively, avoiding technical terminology and encouraging exploration.
    - **What does it add to your website?**
-     It adds interactivity, enabling users to engage with the design process by customizing color palettes, making the experience more immersive and expressive.
+     It adds interactivity, enabling users to engage with the design process by customizing color palettes, making the experience more immersive and expressive. The previous alternative was a not-so-engaging selector, where users selected from a handful of curated, static palettes.
 
 ## Part 4: Design Iteration
 
@@ -75,8 +75,6 @@ Document your use of all GenAI tools — ChatGPT, Copilot, Claude, Cursor, etc. 
 
 ### Usage Experiences by Project Aspects
 
-Feel free to edit the column \_ (other?) or add more columns if there's any other aspect in your project you've used the GenAI tools for.
-
 For the following aspects of your project, edit the corresponding table cell to answer:
 - *Usage*: Whether you used / did not use this tool for the aspect. Enter [Yes/No]
 - *Productivity*: Give a rating on whether this tool makes your productivity for X aspect [1-Much Reduced, 2-Reduced, 3-Slightly Reduced, 4-Not Reduced nor Improved, 5-Slightly Improved, 6-Improved, 7-Much Improved].
@@ -91,15 +89,15 @@ For the following aspects of your project, edit the corresponding table cell to 
 
 > Impact on your design and plan 
 * It matched my expectations and plan in [FP2](#generative-ai-use-plan) in that … For example, 
-  1. **ChatGPT**: This matched my expectations and plan to use it to generate solutions for code and general debugging as well as simplifying attributions and values in CSS.
+  1. **ChatGPT**: I used this to generate solutions for code and general debugging as well as simplifying attributions and values in CSS.
 * It did not match my expectations and plan in [FP2](#generative-ai-use-plan) in that … For example, 
-  1. **ChatGPT**: This did not match my expectations in just how much it understood me from my prompting. I did not expect my prompting to produce results as relevant and robust as those that were generated.
+  1. **ChatGPT**: I was shocked just how much it understood me from my prompting. I did not expect my prompting to produce results as relevant and robust as those that were generated.
 * GenAI tool did/did not influence my final design and implementation plan because … For example, 
   1. **ChatGPT**: ChatGPT influenced my implementation by simplifying complex features and organizing code for better usability. Its suggestions helped clarify and refine my color picker design, ensuring a balance between complexity and accessibility.
 
 > Use patterns
 * I accepted the generations when …  For example, 
-  1. **ChatGPT**: I accepted generated code for the slider and interactive elements, modifying it for better alignment with the project goals. For example, I adapted its proposed implementation for a more intuitive color picker interface.
+  1. **ChatGPT**: I accepted generated code for the slider and interactive elements, modifying it for better alignment with the project goals. For example, I adapted its proposed implementation for a more intuitive color picker interface, and it pointed out a flaw in my background gradient design.
 * I critiqued/evaluated the generated suggestions by … For example, 
   1. **ChatGPT**: I rejected generated code for the interactive elements, choosing to keep my code simple and readable. For example, I opted to keep the sliders simple and without labels (which in one user test, confused people more than help them).
 
@@ -205,21 +203,21 @@ Outline weekly milestones to plan your expected implementation progress until th
   - [X] FP1 due
   - [X] Finalize UI elements and refined design for dual slider functionality.
   
-- [ ] **Week 10 (Nov 4 \- Nov 8)**:  
-  - [ ] Draft code for dual slider functionality, and get all assets necessary finalized.
+- [X] **Week 10 (Nov 4 \- Nov 8)**:  
+  - [X] Draft code for dual slider functionality, and get all assets necessary finalized.
 
-- [ ] **Week 11 (Nov 11 \- Nov 15)**:  
-  - [ ] Assets imported and code for slider officially working and mapped to JS and relevent libraries.
-  - [ ] Integrate hover tooltips and test responsiveness.
+- [X] **Week 11 (Nov 11 \- Nov 15)**:  
+  - [X] Assets imported and code for slider officially working and mapped to JS and relevent libraries.
+  - [X] Explore hover tooltips and test responsiveness.
 
-- [ ] **Week 12 (Nov 18 \- Nov 22)**:  
-  - [ ] Implement accessibility features, including screen reader support and keyboard navigation.
+- [X] **Week 12 (Nov 18 \- Nov 22)**:  
+  - [X] Implement accessibility features, including screen reader support and keyboard navigation.
 
-- [ ] **Week 13 (Nov 25 \- Nov 29)**:  
-  - [ ] Conduct further usability testing and address feedback. 
+- [X] **Week 13 (Nov 25 \- Nov 29)**:  
+  - [X] Conduct further usability testing and address feedback. 
 
-- [ ] **Week 14 (Dec 2 \- Dec 6)**:  
-  - [ ] FP4 due. Consider implementing additional functionality like palette import / export. 
+- [X] **Week 14 (Dec 2 \- Dec 6)**:  
+  - [X] FP4 due. Consider implementing additional functionality like palette import / export. 
 
 ### *Libraries and Other Components*
 
