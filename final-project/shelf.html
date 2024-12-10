@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shelf - Chance</title>
-    <link rel="stylesheet" href="root.css">
-    <link rel="stylesheet" href="case.css">
-    <script src="case.js"></script>
+    <link rel="stylesheet" href="css/root.css">
+    <link rel="stylesheet" href="css/case.css">
+    <script src="js/case.js"></script>
     <meta name="theme-color" content="#FFFFFF">
     <link rel="icon" href="assets/f-shelf.webp" type="image/webp">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.7.0/nouislider.min.css">
@@ -28,8 +28,7 @@
             <div class="view">
                 <div class="row">
                     <div class="holder">
-                        <img src="assets/slate.webp"
-                            alt="A slate blue Shelf displayed on an iPhone with four rows of shelving items, such as notes, computers, and photos. There is a cabinet towards the bottom of the display, with a bike beneath it. A mail icon and search icon float near the top of the display." />
+                        <img src="assets/slate.webp" alt="A slate blue Shelf displayed on an iPhone." />
                     </div>
                     <div class="text">
                         <div class="eyebrow">
@@ -68,10 +67,10 @@
                     <div class="overlay"></div>
                     <controls>
                         <button id="slideL">
-                            <img src="assets/compact-left-dark.svg" />
+                            <img src="assets/compact-left-dark.svg" alt="Left" />
                         </button>
                         <button id="slideR">
-                            <img src="assets/compact-right-dark.svg" />
+                            <img src="assets/compact-right-dark.svg" alt="Right" />
                         </button>
                     </controls>
                     <div class="holder" id="textHolder">
@@ -92,27 +91,20 @@
                         </div>
                     </div>
                     <div class="row ghost">
-                        <img src="assets/a-1.webp"
-                            alt="The shelf display is idle and reads: Every item you see can do something magical.">
-                        <img src="assets/a-2.webp"
-                            alt="A photo item is now in focus and reads: This one holds a photo.">
-                        <img src="assets/a-3.webp"
-                            alt="A radio-looking item is now in focus and reads: And this one — your voice.">
-                        <img src="assets/a-4.webp"
-                            alt="The computer looking item is now focus and reads: Here's a link! Anyway, you get the idea.">
+                        <img src="assets/a-1.webp" alt="Idle shelf reads: Every item you see can do something magical">
+                        <img src="assets/a-2.webp" alt="Photo item with text: This one holds a photo">
+                        <img src="assets/a-3.webp" alt="Radio item with text: And this one — your voice">
+                        <img src="assets/a-4.webp" alt="Computer item with text: Here's a link!">
                         <img src="assets/a-5.webp"
-                            alt="A mini, arched-shaped Shelf with a map icon is now in focus and reads: Now what's this? It's the only item you go through. Let's go!">
-                        <img src="assets/a-6.webp"
-                            alt="A nested room appears with a subtitle, Maps of Muses, and reads: This is a room! Each one has a heading and one row less than before. They also get their own icon, which appear on each room item. Keep as many rooms as you like, using them to expand and explore your Shelf. Let’s go into another one, the one with a paper plane.">
-                        <img src=" assets/b-1.webp"
-                            alt="Another nested room appears with a paper plane icon and subtitle, Around Me, and reads: This room is nested right inside the previous one, with headings relating subtopics. Let's see what's inside the room with a heart.">
-                        <img src="assets/b-2.webp"
-                            alt="Another nested room appears with a heart icon and subtitle, For Him, and reads: Here's our last room. Once you're down to one row, no other rooms can be added.">
-                        <img src="assets/b-3.webp" alt="Ignore.">
-                        <img src="assets/b-4.webp" alt="Ignore.">
-                        <img src="assets/c-1.webp" alt="Ignore.">
-                        <img src="assets/c-2.webp" alt="Ignore.">
-                        <img src="assets/d-1.webp" alt="Ignore.">
+                            alt="Mini shelf with map icon: It's the only item you go through. Let's go!">
+                        <img src="assets/a-6.webp" alt="Nested room titled Maps of Muses with a map icon">
+                        <img src=" assets/b-1.webp" alt="Nested room titled Around Me with a paper plane icon">
+                        <img src="assets/b-2.webp" alt="Nested room titled For Him with a heart icon">
+                        <img src="assets/b-3.webp" alt="">
+                        <img src="assets/b-4.webp" alt="">
+                        <img src="assets/c-1.webp" alt="">
+                        <img src="assets/c-2.webp" alt="">
+                        <img src="assets/d-1.webp" alt="">
                     </div>
                 </div>
             </div>
@@ -139,14 +131,10 @@
                     </div>
                 </div>
                 <div class="row ghost">
-                    <img src="assets/cab-1.webp"
-                        alt="An idle Shelf is displayed with four rows and 12 items and reads: With its rounded corners, and simple handles, cabinet sits at the bottom of every room.">
-                    <img src="assets/cab-2.webp"
-                        alt="The cabinet has been tapped, and an option for adding new items appears with a slider for adding, theming, and archiving. It reads: Add links, your voice, notes, and more through Cabinet. Works as fast as you think.">
-                    <img src="assets/cab-3.webp"
-                        alt="Theme has now been selected, with a color picker for two colors, base and accent, and reads: Choose a base and any accent color that comes to mind and let them color your space.">
-                    <img src="assets/cab-4.webp"
-                        alt="Archive has now been selected, with a list of items with dates of when they were archived and short descriptions of what's inside. It reads: Drag anything into the cabinet to archive. And tap to add it back into your collection.">
+                    <img src="assets/cab-1.webp" alt="Idle shelf with cabinet at the bottom, four rows, and 12 items">
+                    <img src="assets/cab-2.webp" alt="Cabinet open with options to add, theme, and archive">
+                    <img src="assets/cab-3.webp" alt="Theme selected with a color picker for base and accent colors">
+                    <img src="assets/cab-4.webp" alt="Archive selected showing archived items with dates">
                 </div>
             </div>
         </section>
@@ -182,57 +170,48 @@
                 <div class="overlay"></div>
                 <controls>
                     <button id="slideL-2">
-                        <img src="assets/compact-left-dark.svg" />
+                        <img src="assets/compact-left-dark.svg" alt="Left" />
                     </button>
                     <button id="slideR-2">
-                        <img src="assets/compact-right-dark.svg" />
+                        <img src="assets/compact-right-dark.svg" alt="Right" />
                     </button>
                 </controls>
                 <div class="row canvas" id="artifacts">
                     <div class="holder">
-                        <img src="assets/note-1.webp"
-                            alt="An self-written ebook entitled Vitsoe with text & and shelving image is displayed in light mode.">
+                        <img src="assets/note-1.webp" alt="Ebook titled Vitsoe displayed in light mode">
                     </div>
                     <div class="holder">
-                        <img src="assets/note-2.webp"
-                            alt="A note stack is shown with minature ebook previews, sliding from left to right is displayed. There is a prominent add note button.">
+                        <img src="assets/note-2.webp" alt="Note stack with miniature ebook previews">
                     </div>
                     <div class="holder">
-                        <img src="assets/note-3.webp"
-                            alt="An ebook is opened to page 5, with text about Early Braun in dark mode.">
+                        <img src="assets/note-3.webp" alt="Ebook open to page 5 in dark mode">
                     </div>
                     <div class="holder">
-                        <img src="assets/photo-1.webp"
-                            alt="A photo of a green lily image is shown in the sunlight with a preview of a caption written June 3rd, 2024.">
+                        <img src="assets/photo-1.webp" alt="Photo of a green lily with caption: June 3rd, 2024">
                     </div>
                     <div class="holder">
-                        <img src="assets/photo-2.webp"
-                            alt="A video of a sunset beach which shows the coast has an expanded caption written June 3rd, 2024.">
+                        <img src="assets/photo-2.webp" alt="Video of a sunset beach with caption: June 3rd, 2024">
                     </div>
                     <div class="holder">
-                        <img src="assets/photo-3.webp"
-                            alt="A live photo of a hugging couple posing for a picture in front of a mountain at sunset is shown.">
+                        <img src="assets/photo-3.webp" alt="Live photo of a couple hugging in front of a mountain">
                     </div>
                     <div class="holder">
-                        <img src="assets/link-1.webp" alt="A link to the Teenage Engineering website is shown.">
+                        <img src="assets/link-1.webp" alt="Link to Teenage Engineering website">
                     </div>
                     <div class="holder">
-                        <img src="assets/link-2.webp" alt="A link to Apple's application portal is shown.">
+                        <img src="assets/link-2.webp" alt="Link to Apple's application portal">
                     </div>
                     <div class="holder">
-                        <img src="assets/link-3.webp" alt="A link to Cowboy's Electric Bikes is shown.">
+                        <img src="assets/link-3.webp" alt="Link to Cowboy's Electric Bikes">
                     </div>
                     <div class="holder">
-                        <img src="assets/voice-1.webp"
-                            alt="A voice memo entitled Glittering Images is shown with a waveform that matches audio.">
+                        <img src="assets/voice-1.webp" alt="Voice memo titled Glittering Images with a waveform">
                     </div>
                     <div class="holder">
-                        <img src="assets/voice-2.webp"
-                            alt="A voice memo entitled Glittering Images is shown with a transcription of the audio that hightlights the current spoken word.">
+                        <img src="assets/voice-2.webp" alt="Voice memo with transcription highlighting current word">
                     </div>
                     <div class="holder">
-                        <img src="assets/voice-3.webp"
-                            alt="A voice memo entitled Glittering Images is shown with a search for a term and a keyboard towards the bottom of the display.">
+                        <img src="assets/voice-3.webp" alt="Voice memo with search term and keyboard">
                     </div>
                 </div>
             </div>
@@ -415,7 +394,7 @@
                         <div id="base-hue-slider"></div>
                         <div id="base-saturation-slider"></div>
                     </div>
-                    <h5 class="ghost">Primary</h5>
+                    <div class="ghost"></div>
                 </div>
                 <div class="hold-sliders">
                     <h5>Accent</h5>
@@ -423,7 +402,7 @@
                         <div id="accent-hue-slider"></div>
                         <div id="accent-saturation-slider"></div>
                     </div>
-                    <h5 class="ghost">Accent</h5>
+                    <div class="ghost"></div>
                 </div>
             </div>
         </section>
